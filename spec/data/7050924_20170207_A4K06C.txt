@@ -1,0 +1,38 @@
+7050924 Ryan Burnette   ATL CRJ FO   A4K06C 02/07/2017
+Block: 8:03   Credit: 11:55   TAFB: 42:15
+________________________________________________________________________________
+Tuesday 02-07-2017    Report: 18:00    Release: 20:01
+    Flight  Tail    Org  Dest Dep    Arr    Pax Block  Credit D/PU Dhd Turn 
+ 1. 5585    N919EV  ATL  SHV  19:08  19:46  27  0:00   1:59        D        
+                                     Day Total: 0:00   1:59   Duty: 3:01   
+Hotel: Wingate By Wyndham Shreve   Layover: 10:04
+________________________________________________________________________________
+Wednesday 02-08-2017    Report: 06:05    Release: 16:33
+    Flight  Tail    Org  Dest Dep    Arr    Pax Block  Credit D/PU Dhd Turn 
+ 2. 5439    N860AS  SHV  ATL  06:47  09:42  41  1:55   1:55            1:13 
+ 3. 5456    N922EV  ATL  VPS  10:55  11:10  50  1:15   1:19            0:38 
+ 4. 5456    N922EV  VPS  ATL  11:48  14:02  50  1:14   1:15            0:57 
+ 5. 1680            ATL  OAJ  14:59  16:18  0   0:00   1:19        D        
+                                     Day Total: 4:24   5:48   Duty: 9:28   
+Hotel: Hampton Inn & Suites   Layover: 12:32
+________________________________________________________________________________
+Thursday 02-09-2017    Report: 05:05    Release: 12:15
+    Flight  Tail    Org  Dest Dep    Arr    Pax Block  Credit D/PU Dhd Turn 
+ 6. 5491    N854AS  OAJ  ATL  05:46  07:31  44  1:45   1:45            0:52 
+ 7. 5528    N854AS  ATL  TRI  08:23  09:21  12  0:58   1:08            0:27 
+ 8. 5528    N854AS  TRI  ATL  09:48  10:44  32  0:56   1:15            1:01 
+ 9. SBY             ATL  ATL  11:45  12:15  0   0:00   0:00        N        
+                                     Day Total: 3:39   4:08   Duty: 7:10   
+________________________________________________________________________________
+
+Crew Members
+ 1. CA: 7013649 Jeff Thaler   FO: 7029315 Carson Dillin   FA: 7026525 Chris Truszkowski
+ 2. CA: 7010876 Randy Abele   FO: 7050924 Ryan Burnette   FA: 7029316 Chantell Christopher
+ 3. CA: 7012293 Christopher Lund   FO: 7050924 Ryan Burnette   FA: 7029144 Adaryll Glover
+ 4. CA: 7012293 Christopher Lund   FO: 7050924 Ryan Burnette   FA: 7029144 Adaryll Glover
+ 5. CA:      FO:      :   
+ 6. CA: 7012293 Christopher Lund   FO: 7050924 Ryan Burnette   FA: 7029144 Adaryll Glover
+ 7. CA: 7012293 Christopher Lund   FO: 7050924 Ryan Burnette   FA: 7029144 Adaryll Glover
+ 8. CA: 7012293 Christopher Lund   FO: 7050924 Ryan Burnette   FA: 7029144 Adaryll Glover
+ 9. CA:      FO:      :   
+

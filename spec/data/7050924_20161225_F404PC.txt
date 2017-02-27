@@ -1,0 +1,53 @@
+7050924 Ryan Burnette   ATL CRJ FO   F404PC 12/25/2016
+Block: 18:39   Credit: 22:04   TAFB: 79:11
+________________________________________________________________________________
+Sunday 12-25-2016    Report: 08:10    Release: 17:33
+    Flight  Tail    Org  Dest Dep    Arr    Pax Block  Credit D/PU Dhd Turn 
+ 1. 2772    901     DFW  CLL  09:00  10:04  0   1:04   1:04            0:23 
+ 2. 2803    901     CLL  DFW  10:27  11:31  0   1:04   1:04            1:00 
+ 3. 2803    901     DFW  HOU  12:31  13:49  0   1:18   1:18            0:27 
+ 4. 2843    901     HOU  DFW  14:16  15:29  0   1:13   1:15            0:58 
+ 5. 2799    901     DFW  CLL  16:27  17:18  0   0:00   0:56        D        
+                                     Day Total: 4:39   5:37   Duty: 9:23   
+Hotel: Four Points College Stati   Layover: 12:30
+________________________________________________________________________________
+Monday 12-26-2016    Report: 06:03    Release: 16:49
+    Flight  Tail    Org  Dest Dep    Arr    Pax Block  Credit D/PU Dhd Turn 
+ 6. 2784    N908EV  CLL  DFW  06:33  07:38  0   1:05   1:05            1:18 
+ 7. 2784    880     DFW  BTR  08:56  10:26  0   1:30   1:30            0:30 
+ 8. 2771    880     BTR  DFW  10:56  12:23  0   1:27   1:31            2:27 
+ 9. 2756    N904EV  DFW  GRI  14:50  16:34  0   1:44   1:49                 
+                                     Day Total: 5:46   5:55   Duty: 10:46  
+Hotel: Fairfield Inn And Suites   Layover: 13:39
+________________________________________________________________________________
+Tuesday 12-27-2016    Report: 06:28    Release: 16:11
+    Flight  Tail    Org  Dest Dep    Arr    Pax Block  Credit D/PU Dhd Turn 
+10. 2774    N909EV  GRI  DFW  09:52  11:42  0   1:50   2:02            2:49 
+11. 2787    903     DFW  GCK  14:31  15:56  0   1:25   1:30                 
+                                     Day Total: 3:15   4:58   Duty: 9:43   
+Hotel: Garden City Hampton Inn   Layover: 13:04
+________________________________________________________________________________
+Wednesday 12-28-2016    Report: 05:15    Release: 15:21
+    Flight  Tail    Org  Dest Dep    Arr    Pax Block  Credit D/PU Dhd Turn 
+12. 2808    905     GCK  DFW  05:56  07:16  0   1:20   1:41            3:46 
+13. 2794    N902EV  DFW  PNS  11:02  12:39  0   1:37   1:45            0:25 
+14. 2794    N902EV  PNS  DFW  13:04  15:06  0   2:02   2:08                 
+                                     Day Total: 4:59   5:34   Duty: 10:06  
+________________________________________________________________________________
+
+Crew Members
+ 1. CA: 7025304 Brian Watts   FO: 7050924 Ryan Burnette   FA: 7049755 Dennis Kitchen
+ 2. CA: 7025304 Brian Watts   FO: 7050924 Ryan Burnette   FA: 7049755 Dennis Kitchen
+ 3. CA: 7025304 Brian Watts   FO: 7050924 Ryan Burnette   FA: 7049755 Dennis Kitchen
+ 4. CA: 7025304 Brian Watts   FO: 7050924 Ryan Burnette   FA: 7049755 Dennis Kitchen
+ 5. CA: 7015339 Terry Gowen   FO: 7050694 Wesley Mead   FA: 7048702 Chiquita Carnegie
+ 6. CA: 7025304 Brian Watts   FO: 7050924 Ryan Burnette   FA: 7049755 Dennis Kitchen
+ 7. CA: 7023411 Jean Paul De Santolo   FO: 7050924 Ryan Burnette   FA: 7049755 Dennis Kitchen
+ 8. CA: 7023411 Jean Paul De Santolo   FO: 7050924 Ryan Burnette   FA: 7049755 Dennis Kitchen
+ 9. CA: 7025327 Alex Jarret   FO: 7050924 Ryan Burnette   FA: 7049755 Dennis Kitchen
+10. CA: 7025327 Alex Jarret   FO: 7050924 Ryan Burnette   FA: 7049755 Dennis Kitchen
+11. CA: 7024969 Patrick Lyttle   FO: 7050924 Ryan Burnette   FA: 7016274 Elizabeth Langdale
+12. CA: 7024969 Patrick Lyttle   FO: 7050924 Ryan Burnette   FA: 7016274 Elizabeth Langdale
+13. CA: 7014342 Bryan Talley   FO: 7050924 Ryan Burnette   FA: 7049755 Dennis Kitchen
+14. CA: 7014342 Bryan Talley   FO: 7050924 Ryan Burnette   FA: 7049755 Dennis Kitchen
+
