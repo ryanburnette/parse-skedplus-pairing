@@ -1,6 +1,2 @@
-module RbSkedplus
-  module Data
-    class Crew
-    end
-  end
+module Skedplus::Data::Crew
 end

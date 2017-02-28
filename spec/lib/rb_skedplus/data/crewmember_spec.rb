@@ -1,4 +1,4 @@
-require "rb_skedplus/data/crewmember"
+require "skedplus/data/crewmember"
 
-RSpec.describe RbSkedplus::Data::Crewmember do
+RSpec.describe Skedplus::Data::Crewmember do
 end

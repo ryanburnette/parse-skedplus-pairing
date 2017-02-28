@@ -1,17 +1,17 @@
-require "rb_skedplus/parser/pairing"
-require "rb_skedplus/parser/day"
-require "rb_skedplus/parser/flight"
+require "skedplus/parser/pairing"
+require "skedplus/parser/day"
+require "skedplus/parser/flight"
 
-RSpec.describe RbSkedplus::Parser::Flight do
+RSpec.describe Skedplus::Parser::Flight do
   before :all do
     file_path = "spec/data/7050924_20161225_F404PC.txt"
-    pairing = RbSkedplus::Parser::Pairing.new_from_file_path(file_path)
+    pairing = Skedplus::Parser::Pairing.new_from_file_path(file_path)
 
-    days = pairing.days.collect { |d| RbSkedplus::Parser::Day.new(d) }
+    days = pairing.days.collect { |d| Skedplus::Parser::Day.new(d) }
 
-    @flight   = RbSkedplus::Parser::Flight.parse(days[0].flights[0])
-    @flight5  = RbSkedplus::Parser::Flight.parse(days[0].flights[4])
-    @flight11 = RbSkedplus::Parser::Flight.parse(days[2].flights[1])
+    @flight   = Skedplus::Parser::Flight.parse(days[0].flights[0])
+    @flight5  = Skedplus::Parser::Flight.parse(days[0].flights[4])
+    @flight11 = Skedplus::Parser::Flight.parse(days[2].flights[1])
   end
 
   it "parses and returns a struct" do

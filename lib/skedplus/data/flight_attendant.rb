@@ -1,6 +1,2 @@
-module RbSkedplus
-  module Data
-    class FlightAttendant < Crewmember
-    end
-  end
+module Skedplus::Data::FlightAttendant < Skedplus::Data::Crewmember
 end

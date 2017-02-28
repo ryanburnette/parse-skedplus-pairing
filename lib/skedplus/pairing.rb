@@ -1,0 +1,2 @@
+class Skedplus::Pairing
+end

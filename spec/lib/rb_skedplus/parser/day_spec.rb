@@ -1,11 +1,11 @@
-require "rb_skedplus/parser/pairing"
-require "rb_skedplus/parser/day"
+require "skedplus/parser/pairing"
+require "skedplus/parser/day"
 
-RSpec.describe RbSkedplus::Parser::Day do
+RSpec.describe Skedplus::Parser::Day do
   before :all do
     file_path = "spec/data/7050924_20161225_F404PC.txt"
-    pairing = RbSkedplus::Parser::Pairing.new_from_file_path(file_path)
-    @day = RbSkedplus::Parser::Day.new(pairing.days[0])
+    pairing = Skedplus::Parser::Pairing.new_from_file_path(file_path)
+    @day = Skedplus::Parser::Day.new(pairing.days[0])
   end
 
   it "#contents" do

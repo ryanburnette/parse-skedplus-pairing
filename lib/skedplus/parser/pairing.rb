@@ -1,10 +1,10 @@
-require "rb_skedplus/parser/splitters"
+require "skedplus/parser/splitters"
 require "date"
 
-class RbSkedplus::Parser::Pairing
+class Skedplus::Parser::Pairing
   attr_reader :contents
 
-  include RbSkedplus::Parser::Splitters
+  include Skedplus::Parser::Splitters
 
   def initialize(contents)
     @contents = contents

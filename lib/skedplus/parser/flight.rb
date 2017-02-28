@@ -1,6 +1,6 @@
 require "pikelet"
 
-module RbSkedplus::Parser::Flight
+module Skedplus::Parser::Flight
   def self.definition
     Pikelet.define do
       sequence 0...2

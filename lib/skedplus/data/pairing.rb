@@ -1,6 +1,2 @@
-module RbSkedplus
-  module Data
-    class Pairing
-    end
-  end
+module Skedplus::Data::Pairing
 end

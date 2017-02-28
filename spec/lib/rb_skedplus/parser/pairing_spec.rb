@@ -1,12 +1,12 @@
-require "rb_skedplus/parser/pairing"
+require "skedplus/parser/pairing"
 
-RSpec.describe RbSkedplus::Parser::Pairing do
+RSpec.describe Skedplus::Parser::Pairing do
   before :all do
     file_path = "spec/data/7050924_20161225_F404PC.txt"
     @file_contents = File.open(file_path).read
-    @pairing = RbSkedplus::Parser::Pairing.new(@file_contents)
+    @pairing = Skedplus::Parser::Pairing.new(@file_contents)
     @pairing_from_file_contents = @pairing
-    @pairing_from_file_path = RbSkedplus::Parser::Pairing.new_from_file_path(file_path)
+    @pairing_from_file_path = Skedplus::Parser::Pairing.new_from_file_path(file_path)
   end
 
   context "instantiates" do

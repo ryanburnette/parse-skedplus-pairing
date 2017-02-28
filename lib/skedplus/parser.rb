@@ -1,2 +1,2 @@
-module RbSkedplus::Parser
+module Skedplus::Parser
 end

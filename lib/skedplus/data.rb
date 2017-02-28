@@ -1,0 +1,2 @@
+module Skedplus::Data
+end

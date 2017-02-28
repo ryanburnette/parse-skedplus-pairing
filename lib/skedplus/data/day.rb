@@ -1,6 +1,2 @@
-module RbSkedplus
-  module Data
-    class Day
-    end
-  end
+class Skedplus::Data::Day
 end

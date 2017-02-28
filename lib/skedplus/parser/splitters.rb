@@ -1,6 +1,6 @@
-require "rb_skedplus/parser"
+require "skedplus/parser"
 
-module RbSkedplus::Parser::Splitters
+module Skedplus::Parser::Splitters
   SPACE   = " "
   RETURN  = "\r\n"
   DIVIDER = "________________________________________________________________________________"

@@ -1,7 +1,6 @@
-module RbSkedplus
-  module Data
-    class Crewmember
-      attr_accessor :name, :base, :equipment
-    end
-  end
+require "skedplus"
+require "skedplus/data"
+
+module Skedplus::Data::Crewmember
+  attr_accessor :name, :base, :equipment
 end
