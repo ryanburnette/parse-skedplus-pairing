@@ -19,6 +19,23 @@ RSpec.describe RbSkedplus::Pairing do
     end
   end
 
+  context "breaks into parts" do
+    it "#header" do
+      expect(@pairing.send(:header)).to eq("7050924 Ryan Burnette   ATL CRJ FO   F404PC 12/25/2016\r\nBlock: 18:39   Credit: 22:04   TAFB: 79:11\r\n")
+    end
+
+    it "#days" do
+      expect(@pairing.days).to be_a(Array)
+      expect(@pairing.days.count).to eq(4)
+      expect(@pairing.days[0]).to include("1. 2772    901     DFW  CLL  09:00  10:04  0   1:04")
+      expect(@pairing.days[1]).to include("6. 2784    N908EV  CLL  DFW  06:33  07:")
+    end
+
+    it "#footer" do
+      expect(@pairing.send(:footer)).to include("1. CA: 7025304 Brian Watts   FO: 7050924 Ryan Bu")
+    end
+  end
+
   it "returns the lines" do
     expect(@pairing.lines).to eq(@file_contents.split("\r\n"))
   end
