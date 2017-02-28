@@ -16,15 +16,11 @@ class Skedplus::Parser::Day
   end
 
   def headers
-    [lines[0], lines[1]]
-  end
-
-  def date_str
-    headers[0].split(SPACE)[1]
+    lines[0..1]
   end
 
   def date
-    Date.strptime(date_str, "%m-%d-%Y")
+    headers.first.split(SPACE)[1]
   end
 
   def columns
@@ -37,12 +33,11 @@ class Skedplus::Parser::Day
 
   def footers
     lines
-      .reject { |l| headers.include?(l) }
-      .reject { |l| flights.include?(l) }
+    .reject { |l| headers.include?(l) }
+    .reject { |l| flights.include?(l) }
   end
 
-  # rename to layover as its implied everythings a str coming from the parser
-  def layover_str
+  def layover
     footers.last.split(SPACE).last
   end
 

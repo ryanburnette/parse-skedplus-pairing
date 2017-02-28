@@ -26,13 +26,8 @@ RSpec.describe Skedplus::Parser::Day do
     expect(@day.headers[1]).to eq @day.lines[1]
   end
 
-  it "#date_str" do
-    expect(@day.date_str).to eq "12-25-2016"
-  end
-
   it "#date" do
-    expect(@day.date).to be_a Date
-    expect(@day.date.to_s).to eq "2016-12-25"
+    expect(@day.date).to eq "12-25-2016"
   end
 
   it "#columns" do
@@ -63,13 +58,8 @@ RSpec.describe Skedplus::Parser::Day do
     expect(@day.footers[1]).to include "Hotel: Four Points College Stati   Layo"
   end
 
-  it "#layover_str" do
-    expect(@day.layover_str).to eq "12:30"
-  end
-
-  it "#layover_duration" do
-    expect(@day.layover_duration).to be_a Duration
-    expect(@day.layover_duration.strftime("%h:%m")).to eq "12:30"
+  it "#layover" do
+    expect(@day.layover).to eq "12:30"
   end
 
   it "#report" do
