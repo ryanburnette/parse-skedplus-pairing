@@ -20,8 +20,10 @@ RSpec.describe RbSkedplus::Pairing do
   end
 
   context "breaks into parts" do
-    it "#header" do
-      expect(@pairing.send(:header)).to eq("7050924 Ryan Burnette   ATL CRJ FO   F404PC 12/25/2016\r\nBlock: 18:39   Credit: 22:04   TAFB: 79:11\r\n")
+    it "#headers" do
+      expect(@pairing.headers).to be_a Array
+      expect(@pairing.headers[0]).to include("7050924 Ryan Burnette   ATL CRJ FO   F404PC 12/25/2016")
+      expect(@pairing.headers[1]).to include("Block: 18:39   Credit: 22:04   TAFB: 79:11")
     end
 
     it "#days" do
@@ -31,8 +33,10 @@ RSpec.describe RbSkedplus::Pairing do
       expect(@pairing.days[1]).to include("6. 2784    N908EV  CLL  DFW  06:33  07:")
     end
 
-    it "#footer" do
-      expect(@pairing.send(:footer)).to include("1. CA: 7025304 Brian Watts   FO: 7050924 Ryan Bu")
+    it "#footers" do
+      expect(@pairing.footers).to be_a Array
+      expect(@pairing.footers[0]).to include("Crew Memb")
+      expect(@pairing.footers[1]).to include("1. CA: 7025304 Brian Watts")
     end
   end
 

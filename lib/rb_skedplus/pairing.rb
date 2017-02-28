@@ -4,6 +4,8 @@ module RbSkedplus
   class Pairing
     attr_reader :contents
 
+    SPACE   = " "
+    RETURN  = "\r\n"
     DIVIDER = "________________________________________________________________________________"
 
     def initialize(contents, options={})
@@ -11,19 +13,19 @@ module RbSkedplus
     end
 
     def lines
-      contents.split("\r\n")
+      contents.split(RETURN)
     end
 
-    def header
-      contents.split(DIVIDER).first
+    def headers
+      contents.split(DIVIDER).first.split(RETURN)
     end
 
     def header_parts
-      header.split(" ")
+      headers.join(SPACE).split(SPACE)
     end
 
-    def footer
-      contents.split(DIVIDER).last
+    def footers
+      contents.split(DIVIDER).last.split(RETURN).reject { |x| x.empty? }
     end
 
     def days
