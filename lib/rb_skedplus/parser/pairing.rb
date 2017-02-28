@@ -1,3 +1,4 @@
+require "rb_skedplus/parser/splitters"
 require "date"
 
 module RbSkedplus
@@ -5,9 +6,7 @@ module RbSkedplus
     class Pairing
       attr_reader :contents
 
-      SPACE   = " "
-      RETURN  = "\r\n"
-      DIVIDER = "________________________________________________________________________________"
+      include Splitters
 
       def initialize(contents, options={})
         @contents = contents
