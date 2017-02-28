@@ -1,11 +1,7 @@
-module RbSkedplus
-  module Parser
-    module Splitters
+require "rb_skedplus/parser"
 
-      SPACE   = " "
-      RETURN  = "\r\n"
-      DIVIDER = "________________________________________________________________________________"
-
-    end
-  end
+module RbSkedplus::Parser::Splitters
+  SPACE   = " "
+  RETURN  = "\r\n"
+  DIVIDER = "________________________________________________________________________________"
 end

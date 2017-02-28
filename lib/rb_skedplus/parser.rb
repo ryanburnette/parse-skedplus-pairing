@@ -1,0 +1,2 @@
+module RbSkedplus::Parser
+end
