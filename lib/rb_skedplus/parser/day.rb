@@ -56,6 +56,30 @@ module RbSkedplus
         minutes = parts[1]
         Duration.new(hours: hours, minutes: minutes)
       end
+
+      def report
+        headers[0].split(SPACE)[3]
+      end
+
+      def release
+        headers[0].split(SPACE)[5]
+      end
+
+      def total_block
+        footers[0].split(SPACE)[2]
+      end
+
+      def total_credit
+        footers[0].split(SPACE)[3]
+      end
+
+      def total_duty
+        footers[0].split(SPACE)[5]
+      end
+
+      def hotel
+        footers[1].to_s[7...34].strip
+      end
     end
 
   end
