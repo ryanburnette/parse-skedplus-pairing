@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 
+gem "pikelet"
 gem "ruby-duration"
 
 group :development do
