@@ -5,10 +5,14 @@ class Skedplus::Flight
     @parser = parser
   end
 
-  %w{sequence number tail org dest dep arr pax block credit dpu dhd turn}
+  %w{number tail org dest dep arr pax block credit dpu dhd turn}
   .each do |col|
     define_method(col) do
       @parser.send(col)
     end
+  end
+
+  def sequence
+    @parser.sequence.to_i
   end
 end
