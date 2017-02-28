@@ -1,4 +1,4 @@
-# Parse SkedPlus+ Pairing
+# Parse SkedPlus+ Pairings
 
 The goal of this project is to receive a text version of a pairing from
 SkedPlus+, parse it, and return a useful array of objects.

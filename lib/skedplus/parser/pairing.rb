@@ -80,8 +80,4 @@ class Skedplus::Parser::Pairing
   def tafb_time
     header_parts[13]
   end
-
-  def self.new_from_file_path(file_path)
-    new(File.open(file_path).read)
-  end
 end

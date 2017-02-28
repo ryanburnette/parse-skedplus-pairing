@@ -5,18 +5,6 @@ RSpec.describe Skedplus::Parser::Pairing do
     file_path = "spec/data/7050924_20161225_F404PC.txt"
     @file_contents = File.open(file_path).read
     @pairing = Skedplus::Parser::Pairing.new(@file_contents)
-    @pairing_from_file_contents = @pairing
-    @pairing_from_file_path = Skedplus::Parser::Pairing.new_from_file_path(file_path)
-  end
-
-  context "instantiates" do
-    it "from file contents" do
-      expect(@pairing_from_file_contents.contents).to eq(@file_contents)
-    end
-
-    it "from a file path" do
-      expect(@pairing_from_file_path.contents).to eq(@file_contents)
-    end
   end
 
   context "breaks into parts" do

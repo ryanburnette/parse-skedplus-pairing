@@ -5,7 +5,8 @@ require "skedplus/parser/flight"
 RSpec.describe Skedplus::Parser::Flight do
   before :all do
     file_path = "spec/data/7050924_20161225_F404PC.txt"
-    pairing = Skedplus::Parser::Pairing.new_from_file_path(file_path)
+    file_contents = File.open(file_path).read
+    pairing = Skedplus::Parser::Pairing.new(file_contents)
 
     days = pairing.days.collect { |d| Skedplus::Parser::Day.new(d) }
 
