@@ -1,2 +1,2 @@
-module Skedplus::Data::FlightAttendant < Skedplus::Data::Crewmember
+class Skedplus::FlightAttendant < Skedplus::Crewmember
 end

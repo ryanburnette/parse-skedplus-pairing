@@ -1,6 +1,5 @@
 require "skedplus"
-require "skedplus/data"
 
-module Skedplus::Data::Crewmember
+module Skedplus::Crewmember
   attr_accessor :name, :base, :equipment
 end

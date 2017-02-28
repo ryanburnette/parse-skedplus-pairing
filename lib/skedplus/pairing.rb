@@ -1,7 +1,8 @@
-require "skedplus"
-
 class Skedplus::Pairing
+  attr_reader :contents
+
   def initialize(contents)
+    @contents = contents
   end
 
   def self.new_from_file_path(file_path)

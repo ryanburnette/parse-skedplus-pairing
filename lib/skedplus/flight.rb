@@ -1,6 +1,6 @@
-require "skedplus/data"
+require "skedplus"
 
-class Skedplus::Data::Flight
+class Skedplus::Flight
   def initialize(parser)
     @parser = parser
   end

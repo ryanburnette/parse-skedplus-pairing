@@ -1,6 +1,6 @@
-require "skedplus/data/flight"
+require "skedplus/flight"
 
-RSpec.describe Skedplus::Data::Flight do
+RSpec.describe Skedplus::Flight do
   before :all do
   end
 

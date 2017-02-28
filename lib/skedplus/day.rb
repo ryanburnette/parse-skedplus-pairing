@@ -1,2 +1,2 @@
-class Skedplus::Data::Day
+class Skedplus::Day
 end

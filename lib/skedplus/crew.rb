@@ -1,2 +1,2 @@
-module Skedplus::Data::Crew
+module Skedplus::Crew
 end
