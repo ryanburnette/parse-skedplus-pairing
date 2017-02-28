@@ -1,3 +1,5 @@
+require "skedplus"
+
 class Skedplus::Pairing
   def initialize(contents)
   end
