@@ -3,16 +3,12 @@ require "skedplus/durationable"
 
 class Skedplus::Flight
   include Skedplus::Durationable
+  extend Forwardable
+  
+  def_delegators :@parser, :number, :tail, :org, :dest, :dep, :arr, :pax, :credit, :dpu, :dhd, :turn
 
   def initialize(parser)
     @parser = parser
-  end
-
-  %w{number tail org dest dep arr pax credit dpu dhd turn}
-  .each do |col|
-    define_method(col) do
-      @parser.send(col)
-    end
   end
 
   def sequence
