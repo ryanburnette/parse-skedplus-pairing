@@ -11,6 +11,11 @@ RSpec.describe Skedplus::Parser::Flight do
     @flight11 = Skedplus::Parser::Flight.parse(days[2].flights[1])
   end
 
+    
+  let(:flight20) {Skedplus::Parser::Flight.parse(days[2].flights[1]) }
+
+  file_paths.each do |pathkk
+
   it "parses and returns a struct" do
     expect(@flight).to be_a Struct
   end
