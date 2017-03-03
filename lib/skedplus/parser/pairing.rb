@@ -1,10 +1,8 @@
-require "skedplus/parser/splitters"
 require "date"
 
 class Skedplus::Parser::Pairing
-  attr_reader :contents
-
   include Skedplus::Parser::Splitters
+  attr_reader :contents
 
   def initialize(contents)
     @contents = contents

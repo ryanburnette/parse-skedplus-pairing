@@ -1,6 +1,3 @@
-require "skedplus/parser/pairing"
-require "skedplus/parser/day"
-
 RSpec.describe Skedplus::Parser::Day do
   before :all do
     file_path = "spec/data/7050924_20161225_F404PC.txt"

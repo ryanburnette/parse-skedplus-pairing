@@ -1,4 +1,3 @@
-require "skedplus"
 require "date"
 
 class Skedplus::Day

@@ -1,5 +1,3 @@
-require "skedplus/day"
-
 RSpec.describe Skedplus::Day do
   before :all do
     @day

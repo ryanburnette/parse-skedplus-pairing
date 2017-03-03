@@ -1,5 +1,3 @@
-require "skedplus"
-
-module Skedplus::Crewmember
+class Skedplus::Crewmember
   attr_accessor :name, :base, :equipment
 end

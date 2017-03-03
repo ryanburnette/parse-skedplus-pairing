@@ -1,6 +1,3 @@
-require "skedplus"
-require "skedplus/durationable"
-
 class Skedplus::Flight
   include Skedplus::Durationable
   extend Forwardable
