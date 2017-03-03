@@ -3,9 +3,8 @@ require "date"
 require "duration"
 
 class Skedplus::Parser::Day
-  attr_reader :contents
-
   include Skedplus::Parser::Splitters
+  attr_reader :contents
 
   def initialize(contents)
     @contents = contents

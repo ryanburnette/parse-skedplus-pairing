@@ -1,5 +1,3 @@
-require "skedplus/flight"
-
 RSpec.describe Skedplus::Flight do
   before :all do 
     FakeParser = Struct.new(:sequence, :number, :tail, :org, :dest, :dep, :arr, :pax, :block, :credit, :dpu, :dhd, :turn)
