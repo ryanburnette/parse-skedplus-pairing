@@ -5,6 +5,15 @@ module SkedplusPairing
     @contents = contents
   end
 
+  def id
+  end
+
+  def date
+  end
+
+  def crewmember
+  end
+
   def days
   end
 
