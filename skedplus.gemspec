@@ -20,6 +20,8 @@ Gem::Specification.new do |spec|
 	spec.add_dependency "pikelet", "~> 2.0.0"
 	spec.add_dependency "ruby-duration", "~> 3.2.3"
   spec.add_dependency "retriable"
+  spec.add_dependency "activesupport"
+  spec.add_dependency "chronic"
 
   spec.add_development_dependency "bundler", "~> 1.14"
   spec.add_development_dependency "rake", "~> 10.0"
