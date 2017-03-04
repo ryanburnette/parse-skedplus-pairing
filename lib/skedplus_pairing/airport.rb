@@ -4,11 +4,9 @@ require "retriable"
  
 class SkedplusPairing::Airport
   def initialize(ident)
-    Retriable.retriable do
-      uri = URI("http://airports.api.faralmanac.com/iata/#{ident.downcase}.json")
-      response = Net::HTTP.get(uri)
-      @airport = JSON.parse(response)
-    end
+    uri = URI("http://airports.api.faralmanac.com/iata/#{ident.downcase}.json")
+    response = Retriable.retriable { Net::HTTP.get(uri) }
+    @airport = JSON.parse(response)
   end
 
   def ident
