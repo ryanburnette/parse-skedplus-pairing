@@ -3,6 +3,7 @@ PATH
   specs:
     skedplus_pairing (0.1.0)
       pikelet (~> 2.0.0)
+      retriable
       ruby-duration (~> 3.2.3)
 
 GEM
@@ -54,6 +55,7 @@ GEM
     rb-fsevent (0.9.8)
     rb-inotify (0.9.8)
       ffi (>= 0.5.0)
+    retriable (3.0.1)
     rspec (3.5.0)
       rspec-core (~> 3.5.0)
       rspec-expectations (~> 3.5.0)

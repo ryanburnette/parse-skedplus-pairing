@@ -1,7 +1,7 @@
 # coding: utf-8
-lib = File.expand_path('../lib', __FILE__)
+lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'skedplus_pairing/version'
+require "skedplus_pairing/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "skedplus_pairing"
@@ -19,6 +19,7 @@ Gem::Specification.new do |spec|
 
 	spec.add_dependency "pikelet", "~> 2.0.0"
 	spec.add_dependency "ruby-duration", "~> 3.2.3"
+  spec.add_dependency "retriable"
 
   spec.add_development_dependency "bundler", "~> 1.14"
   spec.add_development_dependency "rake", "~> 10.0"
