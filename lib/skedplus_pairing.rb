@@ -5,6 +5,19 @@ module SkedplusPairing
     @contents = contents
   end
 
+  def days
+  end
+
+  def flights
+    all_flights = []
+    days.each do |d|
+      d.flights each do |f|
+        all_flights << f
+      end
+    end
+    all_flights
+  end
+
   def self.from_file_path(file_path)
     new(File.open(file_path).read)
   end
