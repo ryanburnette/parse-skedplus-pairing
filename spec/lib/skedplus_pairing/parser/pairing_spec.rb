@@ -1,8 +1,8 @@
-RSpec.describe Skedplus::Parser::Pairing do
+RSpec.describe SkedplusPairing::Parser::Pairing do
   before :all do
     file_path = "spec/data/7050924_20161225_F404PC.txt"
     @file_contents = File.open(file_path).read
-    @pairing = Skedplus::Parser::Pairing.new(@file_contents)
+    @pairing = SkedplusPairing::Parser::Pairing.new(@file_contents)
   end
 
   context "breaks into parts" do

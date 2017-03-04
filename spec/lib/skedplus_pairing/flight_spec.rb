@@ -1,8 +1,8 @@
-RSpec.describe Skedplus::Flight do
+RSpec.describe SkedplusPairing::Flight do
   before :all do 
     FakeParser = Struct.new(:sequence, :number, :tail, :org, :dest, :dep, :arr, :pax, :block, :credit, :dpu, :dhd, :turn)
     fake_parser = FakeParser.new("1", "5001", "901", "ATL", "CHS", "12:34", "13:34", "32", "01:00", "01:12", "", "", "00:30")
-    @flight = Skedplus::Flight.new(fake_parser)
+    @flight = SkedplusPairing::Flight.new(fake_parser)
   end
 
   it "#sequence" do

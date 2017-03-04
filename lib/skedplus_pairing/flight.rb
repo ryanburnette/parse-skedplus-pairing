@@ -1,5 +1,5 @@
-class Skedplus::Flight
-  include Skedplus::Durationable
+class SkedplusPairing::Flight
+  include SkedplusPairing::Durationable
   extend Forwardable
   
   def_delegators :@parser, :number, :tail, :org, :dest, :dep, :arr, :dpu

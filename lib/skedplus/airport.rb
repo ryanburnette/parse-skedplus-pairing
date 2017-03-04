@@ -1,2 +1,0 @@
-class Skedplus::Airport
-end

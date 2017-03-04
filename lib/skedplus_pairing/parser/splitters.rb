@@ -1,4 +1,4 @@
-module Skedplus::Parser::Splitters
+module SkedplusPairing::Parser::Splitters
   SPACE   = " "
   RETURN  = "\r\n"
   DIVIDER = "________________________________________________________________________________"

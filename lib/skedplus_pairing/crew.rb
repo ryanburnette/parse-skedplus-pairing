@@ -1,0 +1,2 @@
+module SkedplusPairing::Crew
+end
