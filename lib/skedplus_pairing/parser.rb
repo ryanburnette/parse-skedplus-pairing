@@ -1,0 +1,2 @@
+module SkedplusPairing::Parser
+end

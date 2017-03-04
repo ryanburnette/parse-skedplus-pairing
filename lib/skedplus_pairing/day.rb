@@ -1,6 +1,6 @@
 require "date"
 
-class Skedplus::Day
+class SkedplusPairing::Day
   def initialize(parser)
     @parser = parser
   end

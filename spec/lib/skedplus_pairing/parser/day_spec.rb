@@ -1,9 +1,9 @@
-RSpec.describe Skedplus::Parser::Day do
+RSpec.describe SkedplusPairing::Parser::Day do
   before :all do
     file_path = "spec/data/7050924_20161225_F404PC.txt"
     file_contents = File.open(file_path).read
-    pairing = Skedplus::Parser::Pairing.new(file_contents)
-    @day = Skedplus::Parser::Day.new(pairing.days[0])
+    pairing = SkedplusPairing::Parser::Pairing.new(file_contents)
+    @day = SkedplusPairing::Parser::Day.new(pairing.days[0])
   end
 
   it "#contents" do

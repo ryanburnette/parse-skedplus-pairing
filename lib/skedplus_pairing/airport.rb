@@ -1,0 +1,2 @@
+class SkedplusPairing::Airport
+end

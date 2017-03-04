@@ -1,6 +1,6 @@
 require "duration"
 
-module Skedplus::Durationable
+module SkedplusPairing::Durationable
   def make_duration(str)
     hours   = str.split(":").first
     minutes = str.split(":").last
