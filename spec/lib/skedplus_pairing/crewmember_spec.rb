@@ -1,6 +1,6 @@
 RSpec.describe SkedplusPairing::Crewmember do
-  FakeParser = Struct.new(:name, :base, :equipment)
-  let(:fake_parser) { FakeParser.new("Marc Kruza", "CHS", "CRJ") }
+  FakeCrewmemberParser = Struct.new(:name, :base, :equipment)
+  let(:fake_parser) { FakeCrewmemberParser.new("Marc Kruza", "CHS", "CRJ") }
   let(:crewmember) { SkedplusPairing::Crewmember.new(fake_parser) }
 
   it "#name" do
