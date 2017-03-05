@@ -1,9 +1,9 @@
 RSpec.describe SkedplusPairing::Flight do
-  FakeParser = Struct.new(:sequence, :number, :tail, :org, :dest, :dep, :arr, :pax, :block, :credit, :dpu, :dhd, :turn)
-  let(:fake_parser) { FakeParser.new("1", "5001", "901", "ATL", "CHS", "12:34", "13:34", "32", "01:00", "01:12", "", "", "00:30") }
+  FakeFlightParser = Struct.new(:sequence, :number, :tail, :org, :dest, :dep, :arr, :pax, :block, :credit, :dpu, :dhd, :turn)
+  let(:fake_parser) { FakeFlightParser.new("1", "5001", "901", "ATL", "CHS", "12:34", "13:34", "32", "01:00", "01:12", "", "", "00:30") }
   let(:flight) { SkedplusPairing::Flight.new(fake_parser) }
 
-  let(:fake_parser2) { FakeParser.new("1", "5001", "901", "ATL", "DFW", "12:34", "13:34", "32", "01:00", "01:12", "", "", "00:30") }
+  let(:fake_parser2) { FakeFlightParser.new("1", "5001", "901", "ATL", "DFW", "12:34", "13:34", "32", "01:00", "01:12", "", "", "00:30") }
   let(:flight2) { SkedplusPairing::Flight.new(fake_parser2, { :date => "12-25-2016" }) }
 
   it "#sequence" do

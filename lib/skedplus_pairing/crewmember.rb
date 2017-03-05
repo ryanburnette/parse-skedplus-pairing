@@ -1,13 +1,20 @@
 class SkedplusPairing::Crewmember
-  attr_accessor :name, :base, :equipment
+  extend Forwardable
+  def_delegators :@parser, :name, :equipment
 
-  def initialize(name, base, equipment)
-    @name      = name
-    @base      = base
-    @equipment = equipment
+  def initialize(parser)
+    @parser = parser
   end
 
-  def self.from_parser(parser)
-    new(parser.name, parser.base, parser.equipment)
+  def first_name
+    name.split(" ").first
+  end
+
+  def last_name
+    name.split(" ").last
+  end
+
+  def base
+    @base ||= SkedplusPairing::Airport.new(@parser.base)
   end
 end
