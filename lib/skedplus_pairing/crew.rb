@@ -3,21 +3,14 @@ module SkedplusPairing::Crew
 
   def initialize(members)
     @members = []
-    members.each do |m|
-      add_member(m)
-    end
+    members.each { |m| add_member(m) }
   end
 
-  def <<(additional_members)
-    additional_members.each do |m|
-      add_member(m)
-    end
+  def add_member(crewmember)
+    @members << crewmember
   end
 
-  def add_member(additional_member)
-    @members << additional_member
-  end
-
-  def self.from_parser(parser)
+  def add_members(crewmembers)
+    crewmembers.each { |m| add_member(m) }
   end
 end
