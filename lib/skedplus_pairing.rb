@@ -33,6 +33,7 @@ module SkedplusPairing
 end
 
 require "skedplus_pairing/durationable"
+require "skedplus_pairing/timeable"
 require "skedplus_pairing/airport"
 require "skedplus_pairing/crew"
 require "skedplus_pairing/crewmember"

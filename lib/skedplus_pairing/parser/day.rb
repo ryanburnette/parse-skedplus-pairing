@@ -40,14 +40,6 @@ class SkedplusPairing::Parser::Day
     footers.last.split(SPACE).last
   end
 
-  # need to move this to Data obj, not job of parser to make child obejcts like this
-  def layover_duration
-    parts = layover_str.split(":")
-    hours = parts[0]
-    minutes = parts[1]
-    Duration.new(hours: hours, minutes: minutes)
-  end
-
   def report
     headers[0].split(SPACE)[3]
   end
