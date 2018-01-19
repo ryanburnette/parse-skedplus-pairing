@@ -1,5 +1,4 @@
-# SkedplusPairing [![Build Status](https://travis-ci.org/ryanburnette/skedplus_pairing.svg?branch=master)](https://travis-ci.org/ryanburnette/skedplus_pairing)
-
+# skedplus-pairing
 The goal of this project was to receive a text version of a pairing from
 SkedPlus+, parse it, and return a useful structured object.
 
